@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Escolaridade__c</fullName>
+    <description>Identifica o grau de escolaridade do candidato</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Identifica o grau de escolaridade do candidato</inlineHelpText>
+    <label>Escolaridade</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Não alfabetizado</fullName>
+                <default>false</default>
+                <label>Não alfabetizado</label>
+            </value>
+            <value>
+                <fullName>Primeiro/Segundo grau completo</fullName>
+                <default>false</default>
+                <label>Primeiro/Segundo grau completo</label>
+            </value>
+            <value>
+                <fullName>Graduação ou Pós cursando ou completo</fullName>
+                <default>false</default>
+                <label>Graduação ou Pós cursando ou completo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

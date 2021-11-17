@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pontuacao__c</fullName>
+    <description>Mede a probabilidade do candidato em aceitar a proposta e sua agressividade.</description>
+    <externalId>false</externalId>
+    <formula>IF( Presidiario__c, 1, 0.6) + (-0.3 * ( ABS ( Idade__c - 40 ) ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Mede a probabilidade do candidato em aceitar a proposta e sua agressividade.</inlineHelpText>
+    <label>Pontuação</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>
